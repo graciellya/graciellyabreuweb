@@ -10,23 +10,21 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://www.seekvisualartist.com/"),
-    title: "Seek Visual Artist",
+    metadataBase: new URL("https://github.com/graciellya"),
+    title: "Gracielly Abreu",
     description:
-    "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
+    "Stanford student and freelance developer specializing in frontend development with Next.js and React. Passionate about creating innovative web applications and user experiences.",
     generator: "Next.js",
-    applicationName: "Seek Visual Artist",
+    applicationName: "Gracielly Abreu",
+    icons: '/me.png',
     keywords: [
-        "Seek Visual Artist",
-        "SeekVA",
-        "Seek Design",
-        "Seek Visuals",
+        "Gracielly Abreu",
+        "Stanford",
         "freelance",
         "developer",
         "freelance developer",
         "frontend",
         "nextjs",
-        "astro",
         "react",
         "frontend developer",
         "frontend engineer",
@@ -34,43 +32,12 @@ export const metadata: Metadata = {
         "creative developer",
         "creative engineer",
         "tech",
-        "germany",
         "software",
         "software developer",
         "portfolio",
-        "frontend developer portfolio",
-        "creative developer portfolio",
-        "creative engineer portfolio",
-        "software developer portfolio",
-        "frontend engineer portfolio",
     ],
     colorScheme: "dark",
-    openGraph: {
-        title: "Seek Visual Artist - Designer and Developer",
-        description:
-      "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
-        url: "https://www.seekvisualartist.com/",
-        siteName: "www.seekvisualartist.com",
-        images: [
-            {
-                url: "./public/metadata.jpg",
-                width: 1200,
-                height: 630,
-                alt: "Seek Visual Artist - Designer and Developer",
-            },
-        ],
-        locale: "en-US",
-        type: "website",
-    },
-    twitter: {
-        card: "summary_large_image",
-        title: "Seek Visual Artist - Designer and Developer",
-        description:
-      "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
-        creator: "SeekVFX",
-        creatorId: "0000000000",
-        images: ["./public/metadata.jpg"],
-    },
+    
     robots: {
         index: true,
         follow: true,
